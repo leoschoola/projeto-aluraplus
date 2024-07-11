@@ -166,8 +166,17 @@ body {
         background-image: none;
     }
 
+    .container__titulo {
+        margin-bottom: 5rem;
+    }
+
     .container__imagem {
         width: 50vw;
+        margin-bottom: 5rem;
+    }
+
+    .container__botao {
+        margin-top: 3rem;
     }
 
     .container__caixa{
@@ -181,6 +190,7 @@ body {
 
     .secundario__imagem {
         width: 50vw; /*diminuiu a imagem em 50%*/
+        margin-bottom: 5rem;
     }
 
     .dispositivos__lista {
