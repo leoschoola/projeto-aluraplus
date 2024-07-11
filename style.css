@@ -159,3 +159,35 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block; /*para imagens ficarem uma em baixo da outra*/
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center; 
+    }
+
+    .secundario__imagem {
+        width: 50vw; /*diminuiu a imagem em 50%*/
+    }
+
+    .dispositivos__lista {
+        display: block; /*para imagens ficarem uma em baixo da outra / ficar em bloco*/
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
